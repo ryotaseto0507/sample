@@ -3,7 +3,8 @@
     <div class="container">
       <article>
         <h1 class="title">{{post.title}}</h1>
-        <p>{{post.content}}</p>
+        <p>{{post.content}} 
+        </p>
       </article>
     </div>
     <NLink to="/">
@@ -45,4 +46,6 @@
   .title {
     font-size: 2rem;
   }
+   @import "//at.alicdn.com/t/font_1523487_auyvrjtr4yf.css"
+
 </style>

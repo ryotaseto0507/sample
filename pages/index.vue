@@ -1,6 +1,7 @@
 <template>
   <div>
     <h1>Welcome!</h1>
+    <i class="iconfont icon-changyongicon-"></i>
     <NLink to="/about">
       About page
     </NLink>
@@ -11,9 +12,11 @@
         </NLink>
       </li>
     </ul>
+    <i class="iconfont icon-changyongicon-"></i>
     <NLink to="/new">
       Add New Post
     </NLink>
+
   </div>
 </template>
 <script>
@@ -31,3 +34,7 @@ export default {
   
 }
 </script>
+
+<style>
+   @import "//at.alicdn.com/t/font_1523487_auyvrjtr4yf.css"
+</style>

@@ -3,10 +3,10 @@
         <h2>Title</h2>
         <input type="text" v-model="title" >
         <h2>Content</h2>
-        <textarea v-model="content"></textarea>
-        <button  @click="addNewpage(title,content)" >
+        <textarea v-model="content"></textarea><br>
+        <v-btn small @click="addNewpage(title,content)" >
             Create
-        </button>
+        </v-btn>
     </div>
 </template>
 <script>
